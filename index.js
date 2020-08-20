@@ -72,4 +72,3 @@ const init = () => {
 }
 // function call to initialize program
 init();
-console.log(questions);
