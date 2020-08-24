@@ -50,7 +50,6 @@ const questions = [
             'MIT',
             'Apache 2.0',
             'GNU v3',
-            'BSD 3-Clause',
             'Mozilla Public License 2.0',
             'Unlicense'
         ]
@@ -67,7 +66,7 @@ const questions = [
     },
     {
         type: 'input',
-        name: 'test',
+        name: 'tests',
         message: 'Provide examples on how to run tests.'
     }
 ];

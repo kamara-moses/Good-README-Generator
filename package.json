@@ -1,12 +1,12 @@
 {
   "name": "static-site",
   "version": "1.0.0",
-  "description": "",
+  "description": "command line interface to create a README file",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "author": "",
+  "author": "Moses Kamara",
   "license": "ISC",
   "dependencies": {
     "axios": "^0.19.2",
