@@ -1,3 +1,5 @@
+const fs = require('fs');
+
 const inquirer = require('inquirer');
 
 const axios = require('axios');
@@ -72,3 +74,5 @@ const init = () => {
 }
 // function call to initialize program
 init();
+
+//read user input take that input and write that into the file.
