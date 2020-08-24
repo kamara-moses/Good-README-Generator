@@ -14,6 +14,11 @@ const questions = [
     },
     {
         type: 'input',
+        name: 'email',
+        message: 'What is your email address?'
+    },
+    {
+        type: 'input',
         name: 'title',
         message: 'What is your project Title?'
     },
@@ -29,7 +34,7 @@ const questions = [
     },
     {
         type: 'input',
-        name: 'install',
+        name: 'installation',
         message: 'What are the steps required to install your project?'
     },
     {
@@ -38,20 +43,21 @@ const questions = [
         message: 'Write instructions for using your project.'
     },
     {
-        type: 'checkbox',
+        type: 'list',
         name: 'license',
         message: 'What license would you like to use',
         choices: [
-            'MIT License',
-            'Apache License',
-            'GPL License',
-            'Public Domain Dedication and License',
+            'MIT',
+            'Apache 2.0',
+            'GNU v3',
+            'BSD 3-Clause',
+            'Mozilla Public License 2.0',
             'Unlicense'
         ]
     },
     {
         type: 'input',
-        name: 'contributing',
+        name: 'contributors',
         message: 'What are the rules for contributing to this project?'
     },
     {
@@ -63,11 +69,6 @@ const questions = [
         type: 'input',
         name: 'test',
         message: 'Provide examples on how to run tests.'
-    },
-    {
-        type: 'input',
-        name: 'email',
-        message: 'Enter your email address'
     }
 ];
 // function to write README file
