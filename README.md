@@ -1,7 +1,9 @@
 
+  ## Badges
+  
   # Project Title : Good-README-Generator
 ## Project Description:
-generate a readme.md file for your repository
+takes user input and generates a readme for your project
 ## Table of Contents
 * [Installation](#installation)
 * [Usage](#usage)
@@ -12,34 +14,20 @@ generate a readme.md file for your repository
 * [Author] (#Author)
 * [Badges](#badges)
 ## Installation
-none
+clone or download
 ## Usage
-none
+answer the questions and get a generated readme
 ## Contributors
-Moses Kamara
+undefined
 ## Test
-none
+test
 ## Questions
-If you have any questions, contact kamara-moses on GitHub.
+If you have any questions, contact kamara-moses on GitHub or my personal email kamara.moses@yahoo.com.
 ## License
-MIT License
-Copyright (c) [year] [fullname]
-Permission is hereby granted, free of charge, to any person obtaining a copy
-of this software and associated documentation files (the "Software"), to deal
-in the Software without restriction, including without limitation the rights
-to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
-copies of the Software, and to permit persons to whom the Software is
-furnished to do so, subject to the following conditions:
-The above copyright notice and this permission notice shall be included in all
-copies or substantial portions of the Software.
-THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
-IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
-FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
-AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
-LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
-OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
-SOFTWARE.
+  ![MIT License](https://img.shields.io/badge/license-MIT-yellow.svg)
+  ![AGPL License](https://img.shields.io/badge/license-AGPL-blue.svg)
+  ![GPLv3 License](https://img.shields.io/badge/license-GPL%20v3-yellow.svg)
+  ![Public License](https://img.shields.io/badge/license-PDDL-brightgreen.svg)
+  ![unlicense](https://img.shields.io/badge/license-Unlicense-blue.svg)
 ## Author 
 ![GitHub profile pic](https://avatars3.githubusercontent.com/u/65128951?v=4)
-## Badges
-![badmath](https://img.shields.io/github/repo-size/kamara-moses/Good-README-Generator)

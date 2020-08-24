@@ -38,14 +38,36 @@ const questions = [
         message: 'Write instructions for using your project.'
     },
     {
+        type: 'checkbox',
+        name: 'license',
+        message: 'What license would you like to use',
+        choices: [
+            'MIT License',
+            'Apache License',
+            'GPL License',
+            'Public Domain Dedication and License',
+            'Unlicense'
+        ]
+    },
+    {
         type: 'input',
-        name: 'contributors',
-        message: 'Enter contributor names if any (If there are mulitple contributor, seperate names with comma and no space! )'
+        name: 'contributing',
+        message: 'What are the rules for contributing to this project?'
+    },
+    {
+        type: 'input',
+        name: 'authors',
+        message: 'Who are the authors of this project?'
     },
     {
         type: 'input',
         name: 'test',
         message: 'Provide examples on how to run tests.'
+    },
+    {
+        type: 'input',
+        name: 'email',
+        message: 'Enter your email address'
     }
 ];
 // function to write README file
@@ -74,5 +96,3 @@ const init = () => {
 }
 // function call to initialize program
 init();
-
-//read user input take that input and write that into the file.
